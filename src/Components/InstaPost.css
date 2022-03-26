@@ -1,0 +1,97 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.PostUI {
+  width: 40%;
+  border: 1px solid silver;
+  background-color: #fff;
+  margin: 10px 0px;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+  border-bottom: 1px solid silver;
+}
+
+.postTitle {
+  display: flex;
+  align-items: center;
+}
+
+.postTitle img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.postTitle img:hover {
+  cursor: pointer;
+}
+
+.postTitle p {
+  font-weight: 500;
+  color: rgb(90, 90, 90);
+}
+
+.moreOptions:hover {
+  cursor: pointer;
+}
+
+.actionsDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.viewsDiv {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+.viewsDiv p {
+  margin: 0px;
+}
+
+.views {
+  font-weight: 500;
+  color: rgb(54, 54, 54);
+}
+
+.name {
+  font-weight: 700;
+  margin: 5px 0px !important;
+}
+
+.allComments {
+  color: gray;
+}
+
+.postedTime {
+  color: rgb(139, 139, 139);
+  font-size: 12px;
+  margin-top: 5px !important;
+}
+
+.commentDiv {
+  border-top: 1px solid silver;
+  padding: 6px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.commentDiv p {
+  font-weight: 500;
+  color: skyblue;
+}
+
+.commentDiv p {
+  cursor: default;
+}
